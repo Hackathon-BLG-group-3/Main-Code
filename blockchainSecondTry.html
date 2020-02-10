@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="./blockchainSecondTryV4.js"></script>
+    <link rel="stylesheet" href="./blockchainSecondTry.css">
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <p>ID: 123465435</p>
+        </div>
+        
+        <!-- Medical Menu -->
+        <div class="mainCategory" id="medical" >
+          <p onclick="medicalExpand()">Medical Information</p>
+        <div class="medicalSub" id="medicalSub1" onclick="perscriptionsExpand()">
+            <p>Perscriptions</p>
+            <div class="perscriptionsSub">
+                <p>Meth</p>
+            </div>
+            <div class="perscriptionsSub">
+                <p>Crack</p>
+            </div>
+        </div>
+        <div class="medicalSub"  id="medicalSub2">
+            <p onclick="vaccinationsExpand()">Vaccinations</p>
+            <div class="vaccinationsSub">
+                <p>Coronavirus</p>
+            </div>
+            <div class="vaccinationsSub">
+                <p>The Plague</p>
+            </div>
+        </div>
+        
+        <!-- Financial Menu -->
+        </div>
+        <div class="mainCategory" id="financial">
+            <p onclick="financialExpand()">Financial Information</p>
+            <div class="financialSub" id="financialSub1">
+                <p onclick="statementsExpand()">Bank Statements</p>
+                <div class="statementsSub">
+                    <p>Statement One</p>
+                </div>
+                <div class="statementsSub">
+                    <p>Statement Two</p>
+                </div>
+            </div>
+            <div class="financialSub" id="financialSub2">
+                <p onclick="accountExpand()">Bank Account Information</p>
+                <div class="accountSub">
+                    <p>Card Number: 219173</p>
+                </div>
+                <div class="accountSub">
+                    <p>Balance: $0</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Education Menu -->
+        <div class="mainCategory" id="educational">
+            <p onclick="educationalExpand()">Educational Information</p>
+            <div class="educationalSub" id="educationalSub1">
+                <p onclick="reportsExpand()">Report Cards</p>
+                <div class="reportsSub">
+                    <p>Report Card One</p>
+                </div>
+                <div class="reportsSub">
+                    <p>Report Card Twos</p>
+                </div>
+            </div>
+            <div class="educationalSub" id="educationalSub2">
+                <p onclick="essaysExpand()">Essays</p>
+                <div class="essaysSub">
+                    <p>Essay One</p>
+                </div>
+                <div class="essaysSub">
+                    <p>Essay Two</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
